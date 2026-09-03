@@ -61,3 +61,23 @@ Para este punto realizamos el tutorial descripto en time profiling siguiendo las
 Luego asentamos los resultados en la hoja de cálculos de Resultados obteniendo llamativas diferencias entre los distintos integrantes del grupo en sus computadoras.
 Las capturas de pantalla de cada uno de los resultados ([Lautaro](./Capturas/Aguilar%20Bazán/), Renata, Tomas)
 Según la ia se pueden aplicar flags de optimización en gcc, agregando -02 o -03, por ejemplo gcc -O3 -Wall -pg test_gprof.c test_gprof_new.c -o test_gprof. Identificando así los bucles que no producen ningún efecto útil  y los elimina o simplifica.
+
+## 5.
+
+En la primer parte de este punto realizamos una medición de ancho de banda entre dos máquinas, tomando los datos y llegando a las siguientes conclusiones:
+
+Rendimiento y Ancho de Banda Medido
+
+Ancho de banda promedio de envío (Sender): 771 Mbits/sec.
+
+Ancho de banda promedio de recepción (Receiver): 767 Mbits/sec.
+
+Volumen de datos transferido: 920 MBytes transferidos en aproximadamente 10 segundos.
+
+Al realizar la prueba de ancho de banda LAN entre el equipo cliente (conectado por cable Ethernet al router de Starlink) y el servidor(conectada por Wi-Fi 5 GHz), la prueba dio un promedio de 771 Mbps. Esto demuestra que el router maneja puertos Gigabit por cable y que el Wi-Fi de 5 GHz tiene muy buena cobertura y velocidad, permitiendo enviar tráfico pesado entre ambas máquinas de forma fluida y sin perder datos.
+
+Las capturas que evidencian el procedimiento se encuentran en la carpeta de [Capturas](./Capturas/Punto%205/Tests/).
+
+Para la segunda parte del punto realizamos testeos en distintos proveedores como fast.com, Speedtest.net, Cloudflare Speedtest.
+
+Por último para la tercer parte realizamos una llamada de meet con distintas conexiones como red WiFi y red Celular para medir las distintas latencias y obtuvimos los siguientes [resultados](./Capturas/Punto%205/Latencia%20llamada/), dejando en evidencia que la red WiFi tiene menor latencia y una estabilidad superior a diferencia de la red Celular que tiene una latencia mayor y es bastante inestable.
