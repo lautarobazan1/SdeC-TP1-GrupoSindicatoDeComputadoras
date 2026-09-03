@@ -23,4 +23,25 @@ Aquí puedes pegar una síntesis breve del texto de tu informe, introducción, m
 | Almacenamiento (SSD / HDD) | CrystalDiskMark |
 | Velocidad y capacidad de respuesta de los navegadores web | Speedometer 3.0 |
 
+Elegimos el Benchmark Speedometer 3.0 para correr cada uno en nuestras computadoras, 
+
+Speedometer 3.0 simula lo que hace un usuario real navegando por internet.
+Evalúa la fluidez con la que el navegador procesa acciones complejas mediante:
+Aplicaciones Web Modernas (Frameworks): Ejecuta tareas en simulaciones de apps creadas con React, Angular, Vue, Svelte, etc.
+Edición de Texto Rico: Mide la respuesta al cargar y editar documentos en editores web de código o texto.
+Renderizado de Gráficos: Evalúa el rendimiento cargando gráficos interactivos en Canvas y SVG.S
+Navegación por Portales de Noticias: Simula la interacción en páginas web pesadas creadas con tecnologías de renderizado moderno como Next.js y Nuxt.
+
+Al finalizar la prueba, te devuelve una puntuación numérica: a mayor puntaje, más fluido y rápido responderá ese navegador en tu procesador y sistema operativo. 
+
 Los test realizados en cada una de nuestras computadoras se encuentran subidos en la carpeta [Capturas](./Capturas).
+
+## 2.
+![Imagen Punto 1](./resources/punto2.png)
+
+Aceleración (Speedup) del Ryzen 7950X:
+Frente al i5, su speedup es 1.5962 (59.6% más rápido).
+Frente al Ryzen 5900X, su speedup es 1.8654 (86.5% más rápido).
+Eficiencia de procesador (núcleos): El Ryzen 7950X gana en ambas tablas (0.0998 y 0.1166), siendo el que mejor rinde por cada núcleo.
+
+Eficiencia de costo (dinero): El i5-13600K gana en ambas tablas (0.00352 y 0.00411), siendo el que mejor speedup entrega por cada dólar invertido.
