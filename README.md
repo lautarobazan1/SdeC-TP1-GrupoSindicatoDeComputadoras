@@ -37,7 +37,7 @@ Al finalizar la prueba, te devuelve una puntuación numérica: a mayor puntaje, 
 Los test realizados en cada una de nuestras computadoras se encuentran subidos en la carpeta [Capturas](./Capturas).
 
 ## 2.
-![Imagen Punto 1](./resources/punto2.png)
+![Imagen Punto 2](./resources/punto2.png)
 
 Aceleración (Speedup) del Ryzen 7950X:
 Frente al i5, su speedup es 1.5962 (59.6% más rápido).
@@ -45,3 +45,11 @@ Frente al Ryzen 5900X, su speedup es 1.8654 (86.5% más rápido).
 Eficiencia de procesador (núcleos): El Ryzen 7950X gana en ambas tablas (0.0998 y 0.1166), siendo el que mejor rinde por cada núcleo.
 
 Eficiencia de costo (dinero): El i5-13600K gana en ambas tablas (0.00352 y 0.00411), siendo el que mejor speedup entrega por cada dólar invertido.
+
+## 3.
+
+Para este punto realizamos un código que realiza el calcula de la suma de N iteraciones, realizamos la misma operación para enteros, punto flotante y double, primero con una frecuencia de 80mhz y luego la actualizamos con setCpuFrequencyMhz a 160Mhz, como era de esperar el tiempo de ejecución del cálculo se redujo a la mitad al duplicar la frecuencia ya que, el tiempo de ejecución es inversamente proporcional a la frecuencia del core.
+
+![Imagen Punto 3](./resources/punto3.jpeg)
+
+El código fuente utilizado para las pruebas de frecuencia de la CPU se encuentra disponible en [`./resources/PruebaFrecuencia.ino`](./resources/PruebaFrecuencia.ino).
