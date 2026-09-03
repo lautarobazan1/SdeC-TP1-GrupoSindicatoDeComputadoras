@@ -22,3 +22,5 @@ Aquí puedes pegar una síntesis breve del texto de tu informe, introducción, m
 | Gaming y rendimiento gráfico | 3DMark |
 | Almacenamiento (SSD / HDD) | CrystalDiskMark |
 | Velocidad y capacidad de respuesta de los navegadores web | Speedometer 3.0 |
+
+Los test realizados en cada una de nuestras computadoras se encuentran subidos en la carpeta [Capturas](./Capturas).
