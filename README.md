@@ -53,3 +53,11 @@ Para este punto realizamos un código que realiza el calcula de la suma de N ite
 ![Imagen Punto 3](./resources/punto3.jpeg)
 
 El código fuente utilizado para las pruebas de frecuencia de la CPU se encuentra disponible en [`./resources/PruebaFrecuencia.ino`](./resources/PruebaFrecuencia.ino).
+
+## 4.
+
+Para este punto realizamos el tutorial descripto en time profiling siguiendo las instrucciones de https://www.thegeekstuff.com/2012/08/gprof-tutorial/ .
+
+Luego asentamos los resultados en la hoja de cálculos de Resultados obteniendo llamativas diferencias entre los distintos integrantes del grupo en sus computadoras.
+Las capturas de pantalla de cada uno de los resultados ([Lautaro](./Capturas/Aguilar%20Bazán/), Renata, Tomas)
+Según la ia se pueden aplicar flags de optimización en gcc, agregando -02 o -03, por ejemplo gcc -O3 -Wall -pg test_gprof.c test_gprof_new.c -o test_gprof. Identificando así los bucles que no producen ningún efecto útil  y los elimina o simplifica.
